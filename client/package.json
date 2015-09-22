@@ -1,0 +1,31 @@
+{
+  "name": "jspm-demo",
+  "version": "1.0.0",
+  "description": "Match.com demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='app/**/*.*'"
+  },
+  "author": "Roberto Carrillo",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
+    "html-dist": "^0.1.0",
+    "jspm": "^0.16.6",
+    "uglifyjs": "^2.4.10",
+    "wrench": "^1.5.8"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^0.13.3",
+      "whatwg-fetch": "npm:whatwg-fetch@^0.9.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
